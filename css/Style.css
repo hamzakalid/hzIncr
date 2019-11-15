@@ -1,0 +1,658 @@
+/* Custem FarmWork */
+body{
+    padding-top: 50px;
+}
+.no-border{
+    border:none;
+}
+.main-color{
+    color:#F50057;
+}
+.main-bkg{
+    background-color: #F50057;
+}
+
+.list-unstyle {
+    list-style: none;
+}
+.overly-black {
+    background-color: rgba(0, 0, 0, .8);
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+.public-header{
+    font-weight: 600;
+    color: #777;
+    margin-bottom: 49px;
+}
+
+.no-links a{
+    color:#333;
+    text-decoration: none;
+    cursor: default;
+}
+
+/* about Section */
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about h2 span{
+    color: #F50057;
+}
+.about p {
+    color: #888;
+    font-size: 22px;
+    padding: 15px 20px;
+}
+
+.about p span{
+    font-size: 27px;
+}
+
+.full-raw {
+    width: 100%;
+}
+
+
+
+/* Features section*/
+.Features{
+    background-color: #eee;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.Features .feat span.glyphicon {
+    color: #555;
+    font-size: 25px;
+}
+
+.Features .feat h4{
+    color: #777;
+    font-weight: 600;
+}
+.Features .feat p{
+    color: #555;
+    font-size: 16px;
+    line-height: 2em;
+    
+}
+
+/* our-testimonials" */
+
+.our-testimonials{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.our-testimonials .item
+{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+.our-testimonials .item p {
+    font-size: 20px;
+    padding: 15px 30px;
+    /* background: #fff; */
+}
+.our-testimonials .item h4{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.our-testimonials .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.our-testimonials .carousel-indicators  li{
+       width: 60px;
+       height: 60px;
+       border: 3px solid #F50057;
+       background: none;
+       position: relative;
+       overflow: hidden;
+       border-radius: 50%;
+       opacity: .3;
+}
+.our-testimonials .carousel-indicators li.active{
+    opacity: 1;
+}
+
+.our-testimonials .carousel-indicators li img{
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Our Prices Section */
+.Our-prices {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #eee;
+    padding: 25px 0px;
+}
+.Our-prices .raw .price-box{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.Our-prices .price-box h4{
+    font-weight: 900;
+    margin-top: 19px;
+}
+
+.Our-prices .price-box .the-price {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    font-size: 22px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 22px auto;
+}
+
+.Our-prices .price-box:hover .the-price {
+    animation: bouns 1s linear  1  ;
+}
+.Our-prices .price-box ul li {
+    font-size: 17px;
+    line-height: 2em;
+    font-weight: 600;
+}
+
+
+/* Our Team */
+.our-team{
+    min-height: 600px;
+    background: url("../img/team.jpg")  no-repeat center center fixed #333;
+    background-size: cover;
+    color: #fff;
+}
+
+.our-team .overly-black{
+    min-height: 600px;
+}
+.our-team .presons img {
+    width: 200px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border: 3px #ddd solid;
+    border-radius: 50%;
+
+}
+
+.our-team .presons h4 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.our-team .presons p {
+    color: #ddd;
+
+}
+.our-team .presons ul{
+    margin-top: 10px;
+}
+.our-team .presons ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #f50057;
+    font-size: 24px;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .5s cubic-bezier(0.64, 0.38, 0.38, 0.56);
+}
+
+.our-team .presons ul li:hover {
+    background-color: #fff;
+    color: #f50057;
+}
+
+
+/* subscrip-us */
+.subscrip-us {
+    background-color: #eee;
+    padding: 30px 0px;
+    color: #555;
+}
+
+
+
+.subscrip-us p {
+    font-size: 17px;
+}
+
+.subscrip-us form input {
+    background: none;
+    border: 1px solid #777;
+    padding: 7px;
+    min-width: 250px;
+    max-width: 400px;
+    width: 50%;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.subscrip-us form button {
+    padding: 7px 0;
+    margin-left: -4px;
+    color: #fff !important;
+    margin-top: -3px;
+}
+
+/* The Statistics Style   */
+.our-statis{
+    background: url('../img/1.jpg')  no-repeat center center fixed;
+    min-height: 350px;
+    background-size: cover;
+    color: #fff;
+
+}
+
+.our-statis .overly-black{
+    min-height: 350px;
+}
+.our-statis .stat{
+    color: #ccc;
+}
+.our-statis .stat:hover{
+    color: #fff;
+}
+
+.our-statis .stat i{
+    font-size: 50px;
+    margin: 15px 1px;
+}
+
+.our-statis .stat p{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 13px 0px;
+}
+
+.our-statis .stat span{
+    font-size: 20px;
+}
+
+/* Our Skills */
+
+h4.public-header{
+    margin:10px 0;
+}
+
+.our-skills .about-team p {
+    color: #555;
+    padding-left: 35px;
+}
+.our-skills {
+    padding: 40px 0;
+}
+/* start with contact us section */
+
+.contact-us{
+    min-height: 300px;
+    background: url('../img/blog-img9.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.contact-us .overly-black{
+    min-height: 300px;
+    color: #ccc;
+    padding: 40px 0;
+}
+
+.contact-us h2.public-header{
+    margin: 10px 0px;
+}
+
+.contact-us h2.public-header~p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact-us input[type='text'],
+textarea {
+    background: rgba(97, 97, 97, 0.68);
+    width: 95%;
+    border: none;
+    color: #fff;
+}
+.contact-us textarea {
+    height: 103px;
+}
+ 
+.contact-us .btn {
+    width: 95%;
+    margin: auto;
+}
+
+/* Our clinets  */
+
+.our-clinets ul li img{
+    padding: 40px 0px;
+    opacity: .4;
+    filter: opacity(400);
+    transition: all 750ms ease-in-out;
+}
+
+.our-clinets ul li:hover img{
+    opacity: 1;
+    filter: opacity(1000);
+}
+/* Start Wiht Footer Section */
+footer{
+    background-color: #212121;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+footer a{
+    color: #eee !important;
+}
+
+footer .full-raw{
+    display: flex;
+}
+footer .full-raw li{
+    width: 33.3333%;
+    text-align: center;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+    /* FaceBook - twitter ... */
+
+.smedia {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: #fff;
+}
+.smedia li {
+    margin: 0 5px;
+    font-size: 28px;
+    width: 40px;
+    backface-visibility: visible;
+    height: 40px;
+    position: relative;
+    /* transform-origin: center center; */
+    transform-style: preserve-3d;
+    transition: transform 2s linear;
+}
+
+.smedia li:hover {
+    z-index: 10;
+    /* transform-origin: top center; */
+    transform: rotateX(360deg) rotateY(540deg) rotateZ(720deg);
+}
+
+.face {
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.face-bottom {
+    transform: rotateX(90deg) translateZ(-40px);
+    background: #2196F3;
+    transform-origin: top center;
+}
+
+.face-left {
+    transform: rotateY(-90deg);
+    background: #2196F3;
+    transform-origin: left center;
+}
+
+.face-right {
+    transform: rotateY(90deg);
+    background: #2196F3;
+    transform-origin: right center;
+}
+
+.face-top {
+    transform: rotateX(90deg);
+    background: #2196F3;
+    transform-origin: top center;
+}
+
+.face-back {
+    background: #2196F3;
+    transform-origin: center center;
+    /* position: absolute; */
+    transform: rotateY(180deg);
+}
+
+.face-front {
+    transform: translateZ(40px);
+    background: #F50057;
+    transform-origin: top center;
+}
+
+
+/* colors */
+.facebook > .face:not(.face-front){
+    background:#3a559f;
+}
+
+.twitter > .face:not(.face-front){
+    background:#55acee;
+}
+
+.pinterest>.face:not(.face-front) {
+    background: #9f1121;
+}
+
+.google-plus>.face:not(.face-front) {
+    background: #db4a39;
+}
+
+.github>.face:not(.face-front) {
+    background: #333;
+}
+
+
+.work .img{
+    display: inline-block;
+    width: 47%;
+    background-color: #333;
+    margin:1%;
+}
+
+.work .img img {
+    width: 100%;
+}
+
+.copy-right {
+    width: 100%;
+    height: 50px;
+    background: #151515;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px
+}
+
+/* Overly elements Style*/
+.to-top {
+    background: #f50057;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 34px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bootstrap Updates */
+
+
+/* the nav bar Active */
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #F50057;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 27px;
+    color: #ddd;
+}
+
+/* Dropdown Style */
+.dropdown-menu {
+    background-color: #333;
+    border-top: 2px solid #F50057;
+}
+
+.dropdown-menu>li>a{
+    padding: 8px 20px;
+    transition: transform .3s ease-in-out;
+}
+.dropdown-menu>li>a,
+.dropdown-menu>li.divider {
+    color: #ddd;
+
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover{
+    background-color: #F50057;
+    transform: scale(1.1)
+}
+
+/*  start carousel */
+.carousel-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+    background-color: rgba(0, 0, 0, .3);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.carousel-caption h2 {
+    color: #f50057;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    color: #ddd;
+    padding: 32px;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+.carousel-indicators .active{
+    background-color: #F50057;
+    border: 1px solid #f50057;
+}
+
+
+.carousel-control:focus,
+.carousel-control:hover{
+    color:#F50057;
+}
+
+.carousel-inner>.active,
+.carousel-inner>.next,
+.carousel-inner>.prev{
+    display: inline-block;
+} 
+
+
+.btn {
+    min-width: 100px;
+}
+
+.progress{
+    height: 30px;
+}
+
+.media-object {
+    width: 50px
+}
+.media-heading{
+    color: #aaa;
+}
+.media{
+    color: #888;
+}
+
+/* Animations */
+
+@keyframes bouns {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    15% {
+        transform: translateY(50%);
+    }
+
+    45% {
+        transform: translateY(-50%);
+    }
+
+    60% {
+        transform: translateY(30%);
+    }
+
+    75% {
+        transform: translateY(-20%);
+    }
+
+    85% {
+        transform: translateY(10%);
+    }
+
+    95% {
+        transform: translateY(-5%);
+    }
+}
+
